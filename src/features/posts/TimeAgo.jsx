@@ -1,17 +1,18 @@
 /* eslint-disable react/prop-types */
-import { formatDistanceToNow, parseISO } from "date-fns";
+import { parseISO, formatDistanceToNow } from 'date-fns';
 
-export default function TimeAgo({ timestamp }) {
-    let timeAgo = '';
+const TimeAgo = ({ timestamp }) => {
+    let timeAgo = ''
     if (timestamp) {
-        const date = parseISO(timestamp);
-        const timeperiod = formatDistanceToNow(date);
-        timeAgo = `${timeperiod} ago`;
+        const date = parseISO(timestamp)
+        const timePeriod = formatDistanceToNow(date)
+        timeAgo = `${timePeriod} ago`
     }
 
     return (
-        <span title="timestamp">
+        <span title={timestamp}>
             &nbsp; <i>{timeAgo}</i>
         </span>
     )
 }
+export default TimeAgo
