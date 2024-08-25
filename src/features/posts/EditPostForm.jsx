@@ -116,4 +116,4 @@ const EditPostForm = () => {
     )
 }
 
-export default EditPostForm;
+export default EditPostForm

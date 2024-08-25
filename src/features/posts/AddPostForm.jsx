@@ -82,4 +82,4 @@ const AddPostForm = () => {
         </section>
     )
 }
-export default AddPostForm;
+export default AddPostForm
