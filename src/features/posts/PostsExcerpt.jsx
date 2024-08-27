@@ -24,4 +24,4 @@ const PostsExcerpt = ({ postId }) => {
     )
 }
 
-export default PostsExcerpt
+export default PostsExcerpt;

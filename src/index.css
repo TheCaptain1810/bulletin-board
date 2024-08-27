@@ -60,14 +60,6 @@ nav a:focus {
   text-decoration: underline;
 }
 
-.header,
-.header:hover,
-.header:focus,
-.header:active {
-  text-decoration: none;
-  color: #fff;
-}
-
 main {
   max-width: 900px;
   margin: auto;

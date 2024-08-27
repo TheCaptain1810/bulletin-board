@@ -35,4 +35,4 @@ const SinglePostPage = () => {
     )
 }
 
-export default SinglePostPage
+export default SinglePostPage;
